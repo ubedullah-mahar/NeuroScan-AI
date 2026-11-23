@@ -1,0 +1,20 @@
+{
+    "project": "Brain Tumor Classification",
+    "model_name": "EfficientNet-B0 + SVM",
+    "feature_extractor": "EfficientNet-B0",
+    "feature_dimension": 1280,
+    "classifier": "SVM",
+    "kernel": "rbf",
+    "C": 10,
+    "gamma": "scale",
+    "scaler": "StandardScaler",
+    "classes": [
+        "glioma",
+        "meningioma",
+        "no_tumor",
+        "pituitary"
+    ],
+    "training_samples": 3891,
+    "experiment": "Cleaned dataset experiment",
+    "test_accuracy": 0.88
+}

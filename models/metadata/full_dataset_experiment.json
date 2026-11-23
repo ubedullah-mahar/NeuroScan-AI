@@ -1,0 +1,22 @@
+{
+    "experiment": "Full Original Dataset Experiment",
+    "training_samples": 5000,
+    "model": "EfficientNet-B0 + StandardScaler + SVM",
+    "feature_extractor": "EfficientNet-B0",
+    "feature_dimension": 1280,
+    "classifier": "SVM",
+    "kernel": "rbf",
+    "C": 10,
+    "gamma": "scale",
+    "test_accuracy": 0.97,
+    "test_samples": 1000,
+    "classes": [
+        "glioma",
+        "meningioma",
+        "no_tumor",
+        "pituitary"
+    ],
+    "model_file": "best_svm_full_5000.joblib",
+    "purpose": "Supplementary experiment using the original training dataset",
+    "note": "101 exact duplicate images were identified between original train and test sets; test performance may be affected by data leakage."
+}
