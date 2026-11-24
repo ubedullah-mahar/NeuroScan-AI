@@ -1,0 +1,17 @@
+# Application and inference runtime
+streamlit
+torch
+torchvision
+numpy
+Pillow
+joblib
+scikit-learn
+
+# Optional development and notebook research
+pytest
+pandas
+matplotlib
+ImageHash
+seaborn
+tqdm
+xgboost
